@@ -1,0 +1,11 @@
+{
+	"require" : {
+		"chrisboulton/php-resque" : "1.2.*"
+	},
+	"minimum-stability": "stable",
+	"autoload": {
+		"classmap": [
+			"SampleJob.php"
+		]
+	}
+}
